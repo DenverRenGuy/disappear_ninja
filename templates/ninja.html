@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Disappearing Ninjas</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='site.css') }}" type="text/css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Aw Snap!  You found {{ name }}</h1>
+            <img src="{{url_for('static', filename=ninjaImage) }}" alt= {{ ninjaImage }} />
+        </div>
+
+    </body>
+</html>
